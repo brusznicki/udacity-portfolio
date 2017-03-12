@@ -12,81 +12,75 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <article>
-            <header>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-1">
-                            <img class="title-logo img-responsive" src="img/udacity-logo.svg" alt="Udacity Logo"/>
-                        </div>
-                        <div class="col-md-6 col-xs-11 text-right text-uppercase">
-                            <h1 class="title-super text-thin">Jane Doette</h1>
-                            <h4>Front-end Ninja</h4>
-                        </div>
-                    </div>
+        <main class="container">
+            <header class="row">
+                <div class="col-md-6 col-xs-1">
+                    <img class="title-logo img-responsive" src="img/udacity-logo.svg" alt="Udacity Logo"/>
+                </div>
+                <div class="col-md-6 col-xs-11 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Jane Doette</h1>
+                    <h4>Front-end Ninja</h4>
                 </div>
             </header>
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <hr/>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <picture>
-                              <source media="screen and (min-width:800px)" srcset="img/baltimore_high.jpg 1x" />
-                              <source media="screen and (min-width:600px)" srcset="img/baltimore.jpg 1x" />
-                              <source media="screen and (min-width:400px)" srcset="img/baltimore_25q_50pc.jpg 1x" />
-                              <img src="img/baltimore.jpg" alt="Baltimore Maryland skyline" class="img-responsive"/>
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="text-muted">Featured Work</h2>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <picture>
-                              <img src="img/blp2.png" alt="Bronson Lee Partners - Real Estate Investment" class="img-responsive img-app" data-target="#project1"/>
-                            </picture>
-                            <h3 class="text-uppercase title-project">Bronson Lee</h3>
-                            <p><a href="https://www.bronsonlee.com" target="blank">https://www.bronsonlee.com</a></p>
-                        </div>
-                        <div class="col-md-4">
-                            <picture>
-                              <source media="screen and (min-width:800px)" srcset="img/gameday-housing.jpg 1x" />
-                              <source media="screen and (min-width:600px)" srcset="img/low_gameday-housing.jpg 1x" />
-                              <source media="screen and (min-width:400px)" srcset="img/gameday-housing_25q_50pc.jpg 1x" />
-                              <img src="img/gameday-housing.jpg" alt="Gameday Housing - Vacation Rentals for sports fans" class="img-responsive img-app" data-toggle="modal" data-target="#project2"/>
-                            </picture>
-                            <h3 class="text-uppercase title-project">Gameday Housing</h3>
-                            <p><a href="http://www.gamedayhousing.com" target="blank">https://www.gamedayhousing.com</a></p>
-                        </div>
-                        <div class="col-md-4">
-                            <picture>
-                              <source media="screen and (min-width:750px)" srcset="img/vaystays_black.jpg 1x" />
-                              <img src="img/vaystays_black.jpg" alt="Vaystays - Upscale vacation rentals" class="img-responsive img-app" data-target="#project3"/>
-                            </picture>
-                            <h3 class="text-uppercase title-project">Vaystays</h3>
-                            <p><a href="https://www.vaystays.com" target="blank">https://www.vaystays.com</a></p>
-                        </div>
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-12">
+                    <picture>
+                      <source media="screen and (min-width:800px)" srcset="img/baltimore_high.jpg 1x" />
+                      <source media="screen and (min-width:600px)" srcset="img/baltimore.jpg 1x" />
+                      <source media="screen and (min-width:400px)" srcset="img/baltimore_25q_50pc.jpg 1x" />
+                      <img src="img/baltimore.jpg" alt="Baltimore Maryland skyline" class="img-responsive"/>
+                    </picture>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <article class="col-md-4">
+                        <picture>
+                          <img src="img/blp2.png" alt="Bronson Lee Partners - Real Estate Investment" class="img-responsive img-app" data-target="#project1"/>
+                        </picture>
+                        <h3 class="text-uppercase title-project">Bronson Lee</h3>
+                        <p><a href="https://www.bronsonlee.com" target="blank">https://www.bronsonlee.com</a></p>
+                    </article>
+                    <article class="col-md-4">
+                        <picture>
+                          <source media="screen and (min-width:800px)" srcset="img/gameday-housing.jpg 1x" />
+                          <source media="screen and (min-width:600px)" srcset="img/low_gameday-housing.jpg 1x" />
+                          <source media="screen and (min-width:400px)" srcset="img/gameday-housing_25q_50pc.jpg 1x" />
+                          <img src="img/gameday-housing.jpg" alt="Gameday Housing - Vacation Rentals for sports fans" class="img-responsive img-app" data-toggle="modal" data-target="#project2"/>
+                        </picture>
+                        <h3 class="text-uppercase title-project">Gameday Housing</h3>
+                        <p><a href="http://www.gamedayhousing.com" target="blank">https://www.gamedayhousing.com</a></p>
+                    </article>
+                    <article class="col-md-4">
+                        <picture>
+                          <source media="screen and (min-width:750px)" srcset="img/vaystays_black.jpg 1x" />
+                          <img src="img/vaystays_black.jpg" alt="Vaystays - Upscale vacation rentals" class="img-responsive img-app" data-target="#project3"/>
+                        </picture>
+                        <h3 class="text-uppercase title-project">Vaystays</h3>
+                        <p>
+                            <a href="https://www.vaystays.com" target="blank">https://www.vaystays.com</a>
+                        </p>
+                    </article>
+                </div>
+            </article>
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="cold-md-12">
+                        <div class="col-md-12">
                             <p class="small">Copyright 2017</p>
                         </div>
                     </div>
                 </div>
             </footer>
-        </article>
+        </main>
         <!-- Modal -->
 
         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
