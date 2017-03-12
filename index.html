@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FEDev Portfolio</title>
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-1">
+                    <img class="title-logo img-responsive" src="img/udacity-logo.svg" alt="Udacity Logo"/>
+                </div>
+                <div class="col-md-6 col-xs-11 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Jane Doette</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <picture>
+                      <source media="screen and (min-width:750px)" srcset="img/low_baltimore.jpg 1x, img/baltimore.jpg 2x" />
+                      <source media="screen and (min-width:500px)" srcset="img/low_baltimore_25q_50pc.jpg 1x" />
+                      <img src="img/baltimore.jpg" alt="Baltimore Maryland skyline" class="img-responsive"/>
+                    </picture>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <picture>
+                      <img src="img/blp2.png" alt="Bronson Lee Partners - Real Estate Investment" class="img-responsive img-app" data-target="#project1"/>
+                    </picture>
+                    <h3 class="text-uppercase title-project">Bronson Lee</h3>
+                    <p><a href="https://www.bronsonlee.com" target="blank">https://www.bronsonlee.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <picture>
+                      <source media="screen and (min-width:800px)" srcset="img/gameday-housing.jpg 1x" />
+                      <source media="screen and (min-width:600px)" srcset="img/low_gameday-housing.jpg 1x" />
+                      <source media="screen and (min-width:400px)" srcset="img/gameday-housing_25q_50pc.jpg 1x" />
+                      <img src="img/gameday-housing.jpg" alt="Gameday Housing - Vacation Rentals for sports fans" class="img-responsive img-app" data-toggle="modal" data-target="#project2"/>
+                    </picture>
+                    <h3 class="text-uppercase title-project">Gameday Housing</h3>
+                    <p><a href="http://www.gamedayhousing.com" target="blank">https://www.gamedayhousing.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <picture>
+                      <source media="screen and (min-width:750px)" srcset="img/vaystays_black.jpg 1x" />
+                      <img src="img/vaystays_black.jpg" alt="Vaystays - Upscale vacation rentals" class="img-responsive img-app" data-target="#project3"/>
+                    </picture>
+                    <h3 class="text-uppercase title-project">Vaystays</h3>
+                    <p><a href="https://www.vaystays.com" target="blank">https://www.vaystays.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="bronson-lee">Bronson Lee Partners</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/blp2.png" alt="Bronson Lee Partners - Real Estate Investment" class="img-responsive"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="gameday-housing">Gameday Housing</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/gameday-housing.jpg" alt="Gameday Housing - Vacation Rentals for sports fans" class="img-responsive"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Vaystays</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/vaystays_black.jpg" alt="Vaystays - Upscale vacation rentals" class="img-responsive"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

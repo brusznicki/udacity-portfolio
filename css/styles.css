@@ -1,0 +1,61 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+hr {
+    height: 5px;
+    background-color: #7d97ad;
+    border: none;
+}
+
+h1,h2,h3,h4 {
+    color: #2d3c49;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-logo {
+    max-width: 90px;
+    margin-top: 20px;
+}
+
+
+.title-project {
+    font-size: 32px;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.img-app {
+    display: block;
+    width: 100vw;
+    min-height: 360px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+
+    .title-logo {
+        max-width: 50px;
+    }
+
+    .title-super {
+        font-size: 32px;
+    }
+
+    .img-app {
+        max-height: 90px;
+        width: 100%;
+    }
+
+}
