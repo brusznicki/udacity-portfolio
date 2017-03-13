@@ -12,7 +12,7 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <main class="container">
+        <article class="container">
             <header class="row">
                 <div class="col-md-6 col-xs-1">
                     <img class="title-logo img-responsive" src="img/udacity-logo.svg" alt="Udacity Logo"/>
@@ -21,27 +21,19 @@
                     <h1 class="title-super text-thin">Jane Doette</h1>
                     <h4>Front-end Ninja</h4>
                 </div>
-            </header>
-            <article class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
                 <div class="col-md-12">
-                    <picture>
-                      <source media="screen and (min-width:800px)" srcset="img/baltimore_high.jpg 1x" />
-                      <source media="screen and (min-width:600px)" srcset="img/baltimore.jpg 1x" />
-                      <source media="screen and (min-width:400px)" srcset="img/baltimore_25q_50pc.jpg 1x" />
-                      <img src="img/baltimore.jpg" alt="Baltimore Maryland skyline" class="img-responsive"/>
-                    </picture>
+                    <hr>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="text-muted">Featured Work</h2>
-                    </div>
-                </div>
-                <div class="row text-center">
+            </header>
+            <picture class="col-md-12">
+              <source media="screen and (min-width:800px)" srcset="img/baltimore_high.jpg 1x" />
+              <source media="screen and (min-width:600px)" srcset="img/baltimore.jpg 1x" />
+              <source media="screen and (min-width:400px)" srcset="img/baltimore_25q_50pc.jpg 1x" />
+              <img src="img/baltimore.jpg" alt="Baltimore Maryland skyline" class="img-responsive"/>
+            </picture>
+            <section class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+                <div class="text-center">
                     <article class="col-md-4">
                         <picture>
                           <img src="img/blp2.png" alt="Bronson Lee Partners - Real Estate Investment" class="img-responsive img-app" data-target="#project1"/>
@@ -70,19 +62,14 @@
                         </p>
                     </article>
                 </div>
-            </article>
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="small">Copyright 2017</p>
-                        </div>
-                    </div>
+            </section>
+            <footer class="row">
+                <div class="col-md-12">
+                    <p class="small">Copyright 2017</p>
                 </div>
             </footer>
-        </main>
+        </article>
         <!-- Modal -->
-
         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
